@@ -8,13 +8,21 @@
 </head>
 <body>
     <h1>Contact Me</h1>
-    <p>(646) 301-8836</p>
     <p>yousephagueye@gmail.com</p>
+    <hr>
 
-    <form action="">
+    <form action="mailto:yousephagueye@gmail.com" method="post" enctype="text/plain">
         <label for="">Your Name:</label>
-        <input type="text" name="">
-        <input type="submit">
+        <input type="text" name="yourName" value="">
+        <br>
+        <label for="">Your Email:</label>
+        <input type="email" name="yourEmail" value="">
+        <br>
+        <label for="">Your Message:</label>
+        <br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit" name="">
     </form>
 </body>
 </html>
