@@ -1,24 +1,24 @@
 body {
-    background-color: #E5D9B6;
+    background-color: #EEEEEE;
 }
 
 hr {
     border-style: dotted none none;
-    border-color: #285430;
+    border-color: #FD7014;
     width: 20%;
     border-width: 5px;
 }
 
 h1 {
-    color: #285430;
+    color: #FD7014;
 }
 
 h3 {
-    color: #285430;
+    color: #222831;
 }
 
 p {
-    color: #5F8D4E;
+    color: #393E46;
 }
 
 ul li {
@@ -29,19 +29,23 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #5F8D4E;
+    color: #222831;
 }
 
 a:hover {
-    color:#285430;
+    color:#FD7014;
+}
+
+table thead tr th {
+    color: #222831
 }
 
 table tr td {
-    color: #5F8D4E;
+    color: #393E46;
 }
 
 table tr td img {
     border-radius: 50%;
-    border: 2px solid #285430;
+    border: 2px solid #393E46;
 }
 
